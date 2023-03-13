@@ -21,6 +21,7 @@ function gilToss(e) {
     outPut = 'Computer Wins';
     score[1]++;
   }
+
   message.innerHTML +=
     outPut + '<br>Play ' + score[0] + ' Computer ' + score[1];
 }
